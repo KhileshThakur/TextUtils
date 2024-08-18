@@ -1,0 +1,95 @@
+
+/* AboutPage.css */
+
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .about-text {
+    color: #666;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  ol {
+    margin-left: 20px;
+  }
+  
+  .thank-you {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  /* Responsive CSS */
+  
+  @media (max-width: 768px) {
+    .about-page {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    ul {
+      margin-left: 10px;
+    }
+  
+    li {
+      margin-bottom: 5px;
+    }
+  }
+  
+
+  h1 {
+    color: #333;
+    font-size: 29px;
+    text-align: center;
+}
+.about-text {
+    color: #666;
+    margin: 20px 0px;
+}
+h2 {
+    margin-top: 20px;
+    color: #333;
+    font-size: 25px;
+}
+.about-page {
+    max-width: 1111px;
+}
+.container {
+    display: inline-flex;
+}

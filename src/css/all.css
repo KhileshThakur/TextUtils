@@ -1,0 +1,54 @@
+.brand{
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.flex-head {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 25px auto 10px;
+}
+.nav {
+    padding: 0px;
+    position: sticky;
+    top: 0px;
+}
+.container-fluid{
+    background: #b98de2;
+    margin: 0px;
+    padding: 10px 25px;
+}
+
+.mb-3 {
+    width: 80%;
+    margin: 20px auto;
+}
+textarea{
+    margin: 5px 0px 30px;
+    border: 1px solid gray;
+}
+
+h4{
+    margin-top: 10px;
+}
+.span span {
+    /* padding: 0 0 5px 150px; */
+    font-size: 16px;
+    -webkit-text-stroke-width: thin;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0px auto;
+}
+@media only screen and (max-width: 600px) {
+    .flex{
+        display: inline;
+    }
+    button.btn.btn-success {
+        margin: 5px auto;
+        width: 100%;
+    }
+}
